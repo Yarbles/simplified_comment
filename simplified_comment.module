@@ -1,12 +1,12 @@
 <?php
 
 function simplified_comment_form_alter (&$form, &$form_state, $form_id) {
-//  print_r($form_id);
-  if ($form_id == 'comment_node') {
-    print '<pre>';
-    print_r($form);
-    print '</pre>';
-  }
+ print_r($form_id);
+  // if ($form_id == 'comment_node') {
+  //   print '<pre>';
+  //   print_r($form);
+  //   print '</pre>';
+  // }
 }
 
 
