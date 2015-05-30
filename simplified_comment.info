@@ -1,0 +1,5 @@
+name = simplified comment
+description = removes subject field from comments
+package = Epicodus Examples
+core = 7.x
+files[] = simplified_comment.module
