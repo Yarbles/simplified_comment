@@ -2,9 +2,12 @@
 
 function simplified_comment_form_alter (&$form, &$form_state, $form_id) {
 //  print_r($form_id);
-if ($ form_id == 'comment_node') {
-  print '<pre>';
-  print_r($form);
-  print '</pre>';
+  if ($ form_id == 'comment_node_article') {
+    print '<pre>';
+    print_r($form);
+    print '</pre>';
+  }
 }
-}
+
+
+//comment_node_article_formsearch_block_form
